@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
     height: 100vh;
@@ -18,6 +22,8 @@ body {
     padding: 0;
 }
 
+/* LISTS NAVIGATION SIDE (LEFT) */
+
 .list-navigation {
     display: flex;
     flex-direction: column;
@@ -29,6 +35,33 @@ body {
     background-color: #000000;
     color: #FAF9F6;
 }
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    row-gap: 5px;
+    margin: 0;
+    border: 1px solid #FFFFFF;
+    height: 40vh;
+    max-height: 50vh;
+    width: 28vw;
+    overflow: scroll;
+}
+
+.list-item {
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.list-item p {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+/* TASKS SIDE (RIGHT) */
 
 .tasks {
     display: flex;
@@ -42,31 +75,15 @@ body {
     color: #000000;
 }
 
-.lists {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content:center;
-    /* align-content: center; */
-    margin: 0;
-    border: 1px solid #FFFFFF;
-    height: 70vh;
-    width: 28vw;
-}
 
 .tasks-inner-div {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content:center;
-    /* align-content: center; */
     margin: 0;
     border: 1px solid #000000;
-    height: 70vh;
-    width: 35vw;
-    padding: 10px 20px;
+    height: 40vh;
+    width: 32vw;
 }
 
-p {
-    margin: 0;
-}
