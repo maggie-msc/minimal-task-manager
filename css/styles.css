@@ -57,6 +57,11 @@ body {
 
 .list-item:hover {
     background-color: #3b3b3b;
+    cursor: pointer;
+}
+
+.list-item:active {
+    background-color: #e8e8e8;
 }
 
 .list-item p {
@@ -99,7 +104,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: #f2f0e6;
-    /* border: 1px solid #000000; */
     border-radius: 50px;
     transition: 0.2s;
 }
@@ -121,6 +125,11 @@ body {
 .task-item .checkbox:hover {
     background-color: #887f61;
     border-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.task-item .checkbox:active {
+    background-color: #e8e8e8;
 }
 
 .task-item p {
@@ -129,7 +138,5 @@ body {
     padding-bottom: 15px;
     padding-left: 5px;
     width: 27vw;
-    /* border: 1px solid #bc1a1a; */
-    /* border-radius: 50px; */
 }
 
