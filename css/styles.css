@@ -52,6 +52,11 @@ body {
 .list-item {
     border: 1px solid #FFFFFF;
     border-radius: 50px;
+    transition: 0.2s;
+}
+
+.list-item:hover {
+    background-color: #3b3b3b;
 }
 
 .list-item p {
